@@ -1,4 +1,5 @@
-Ce projet est un script d'automatisation conçu spécifiquement pour le modèle HP Laptop 17-cn3051nf. Il permet de créer une image ISO de Windows 10 personnalisée et optimisée, intégrant nativement tous les pilotes nécessaires pour ce matériel.
+## Téléchargement
+Vous pouvez télécharger le kit complet (9 Go) ici : [https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file](https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file) Ce projet est un script d'automatisation conçu spécifiquement pour le modèle HP Laptop 17-cn3051nf. Il permet de créer une image ISO de Windows 10 personnalisée et optimisée, intégrant nativement tous les pilotes nécessaires pour ce matériel.
 Note importante : Les pilotes inclus dans ce kit sont exclusivement destinés au modèle HP Laptop 17-cn3051nf.
 
 Fonctionnalités du script
