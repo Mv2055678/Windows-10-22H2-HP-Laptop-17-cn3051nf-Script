@@ -14,9 +14,6 @@ Ce que fait le script :
     Génération ISO : Crée un fichier ISO final, prêt à être gravé sur une clé USB via Rufus ou un autre outil.
 
 Utilisation :
-
-    Téléchargez le kit complet (9 Go) ici : 
-
     Assurez-vous d'avoir une image ISO de Windows 10 officielle.
 
     Placez vos pilotes spécifiques dans les dossiers drivers et boot_drivers.
