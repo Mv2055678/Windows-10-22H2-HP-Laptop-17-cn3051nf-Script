@@ -1,11 +1,30 @@
-## Téléchargement
-Vous pouvez télécharger le kit complet (9 Go) ici : [https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file](https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file) Ce projet est un script d'automatisation conçu spécifiquement pour le modèle HP Laptop 17-cn3051nf. Il permet de créer une image ISO de Windows 10 personnalisée et optimisée, intégrant nativement tous les pilotes nécessaires pour ce matériel.
-Note importante : Les pilotes inclus dans ce kit sont exclusivement destinés au modèle HP Laptop 17-cn3051nf.
+## Téléchargement https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file
+Vous pouvez télécharger le kit complet (9 Go) ici : ](https://www.mediafiCe projet propose un script PowerShell automatisé pour créer une image ISO de Windows 10 personnalisée, spécifiquement optimisée pour le HP Laptop 17-cn3051nf.
+Pourquoi ce projet ?
 
-Fonctionnalités du script
-Préparation : Le script télécharge automatiquement le Windows Assessment and Deployment Kit (ADK) pour utiliser l'outil Oscdimg.
-Configuration : Le script monte l'image ISO de base, permet de choisir la version de Windows, et extrait le contenu dans le dossier de travail.
-Intégration des pilotes :
-Le script monte le fichier install.wim pour y injecter les pilotes contenus dans votre dossier drivers, puis enregistre les modifications.
-Le script effectue ensuite la même opération pour le fichier boot.wim, en injectant les pilotes de démarrage spécifiques situés dans le dossier boot_drivers, puis enregistre les modifications.
-Finalisation : Après les modifications, le script démonte les images et génère un fichier ISO final prêt à l'emploi 
+L'installation de Windows 10 sur ce modèle peut parfois nécessiter l'intégration manuelle de pilotes spécifiques pour que tout le matériel (Wi-Fi, touchpad, contrôleur de stockage, etc.) soit reconnu dès le premier démarrage. Ce script automatise l'ensemble du processus pour vous faire gagner du temps et éviter les erreurs de manipulation.
+Ce que fait le script :
+
+    Téléchargement automatique : Récupère le Windows Assessment and Deployment Kit (ADK) requis pour utiliser Oscdimg.
+
+    Préparation de l'image : Monte votre ISO de base, extrait le contenu et prépare l'environnement de travail.
+
+    Injection de pilotes : Intègre automatiquement les pilotes nécessaires dans install.wim (pour le système) et boot.wim (pour le démarrage).
+
+    Génération ISO : Crée un fichier ISO final, prêt à être gravé sur une clé USB via Rufus ou un autre outil.
+
+Utilisation :
+
+    Téléchargez le kit complet (9 Go) ici : 
+
+    Assurez-vous d'avoir une image ISO de Windows 10 officielle.
+
+    Placez vos pilotes spécifiques dans les dossiers drivers et boot_drivers.
+
+    Exécutez le script PowerShell en mode Administrateur.
+
+Avertissement :
+
+    Les pilotes inclus dans ce kit sont exclusivement destinés au modèle HP Laptop 17-cn3051nf. L'utilisation sur un autre modèle peut entraîner des problèmes de stabilité.
+
+    Pensez à vérifier le code source pour comprendre les opérations effectuées sur votre système.re.com/file/d8gejkqnpwjzhtz/script.zip/file) 
