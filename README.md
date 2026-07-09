@@ -6,9 +6,6 @@ L'installation de Windows 10 sur ce modèle nécessite souvent l'intégration ma
 Fonctionnement du script
 
 Le script agit comme un orchestrateur pour préparer votre environnement de travail. Une fois le dossier téléchargé, il suffit d'exécuter le script en mode Administrateur et il s'occupe de tout.
-
-    Note importante : Pour garantir le bon fonctionnement du script, veuillez ne supprimer aucun fichier ou dossier présent dans le répertoire script. L'organisation des dossiers est nécessaire pour que le script puisse localiser correctement les pilotes et l'image ISO.
-
 Le script effectue les opérations suivantes :
 
     Téléchargement automatique : Récupération du Windows Assessment and Deployment Kit (ADK) nécessaire à l'utilisation de Oscdimg.
@@ -21,5 +18,6 @@ Le script effectue les opérations suivantes :
 
         Démarrage (boot.wim) : Intégration automatique des pilotes de démarrage stockés dans le dossier script\boot_drivers.
 
-    Génération : Création d'un fichier ISO final, prêt à être gravé sur une clé USB via Rufus ou un outil similaire.
+    Génération : Création d'un fichier ISO final, prêt à être gravé sur une clé USB via Rufus ou un outil similaire. Note importante : Pour garantir le bon fonctionnement du script, veuillez ne supprimer aucun fichier ou dossier présent dans le répertoire script. L'organisation des dossiers est nécessaire pour que le script puisse localiser correctement les pilotes et l'image ISO.
+
 bon journé cher utilisateur 
