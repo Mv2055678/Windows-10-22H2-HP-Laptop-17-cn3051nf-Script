@@ -17,8 +17,9 @@ Le script effectue les opérations suivantes :
 
     Injection de pilotes :
 
-        Système (install.wim) : Intégration automatique des pilotes stockés dans le dossier script\driver.
+        Système (install.wim) : Intégration automatique tout les drivers pour ce model touchepad audio etplei d'autre script\driver.
 
         Démarrage (boot.wim) : Intégration automatique des pilotes de démarrage stockés dans le dossier script\boot_drivers.
 
     Génération : Création d'un fichier ISO final, prêt à être gravé sur une clé USB via Rufus ou un outil similaire.
+bon journé cher utilisateur 
